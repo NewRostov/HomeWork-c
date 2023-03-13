@@ -5,7 +5,7 @@
 //78 -> 8
 //9146548 -> 1
 //3 -> нет
-Console.Write("Введите число: ");
+Console.Write("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number < 10) { Console.WriteLine("Остатка нет"); } 
